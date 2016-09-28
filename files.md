@@ -1,25 +1,26 @@
-###     Open a terminal on your local machine, SSH into the bigfoot
+### Open a terminal on your local machine, SSH into the bigfoot
 
 1. 1. ```
     ssh <user>@bigfoot.ccs.miami.edu
     ```
 
 
-  ### Move a file to your home directory on bigfoot
 
-2. ```
+### Move a file to your home directory on bigfoot
+
+1. ```
   scp -r <filename> <user>@dev3.ccs.miami.edu:.
   ```
 
   ### Create a directory
 
-3. ```
+2. ```
   hdfs dfs -mkdir <name of the directory>
   ```
 
   ### Put files into the directory
 
-4. ```
+3. ```
   hdfs dfs -put <local file name> <name of the directory you created> 
   ```
 
@@ -40,13 +41,6 @@
   ```
   hdfs dfs -get <path of yoyr hdfs file>
   ```
-
-
-
-
-
-
-
 
 
 # 
