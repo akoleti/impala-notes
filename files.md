@@ -1,4 +1,4 @@
-### Open a terminal on your local machine, SSH into the bigfoot
+###      Open a terminal on your local machine, SSH into the bigfoot
 
 1. 1. ```
     ssh <user>@bigfoot.ccs.miami.edu
@@ -6,7 +6,7 @@
 
 
 
-### Move a file to your home directory on bigfoot
+###      Move a file to your home directory on bigfoot
 
 1. ```
   scp -r <filename> <user>@dev3.ccs.miami.edu:.
